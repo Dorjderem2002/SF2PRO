@@ -1,0 +1,14 @@
+{
+  "name": "sf2proc",
+  "version": "1.0.0",
+  "description": "SFML To Processing",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "electron": "^10.1.5"
+  }
+}
