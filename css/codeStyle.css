@@ -1,0 +1,16 @@
+
+
+.mainSection {
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+}
+
+.codingSection {
+    height: 100%;
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+.editor {
+    z-index: 10;
+}

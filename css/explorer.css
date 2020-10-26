@@ -1,0 +1,15 @@
+.explorerContainer {
+    height: 100%;
+}
+
+.explorerTitle {
+    background-color: #404040;
+    color: white;
+    padding: 10px;
+    text-align: start;
+}
+
+.explorerBody {
+    height: 100%;
+    background-color: #454545;
+}

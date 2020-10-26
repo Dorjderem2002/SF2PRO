@@ -1,0 +1,38 @@
+body {
+    padding: 0;
+    margin: 0;
+}
+
+body *{
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+.container {
+    height: 100%;
+    padding: 0;
+    display: grid;
+    grid-template-rows: auto 1fr;
+}
+
+.titleBar {
+    height: 40px;
+    background-color: #626263;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.windowLogo {
+    margin-left: 80px;
+    color: white;
+}
+
+.windowName {
+    color: white;
+    text-align: center;
+}
+.searchLogo {
+    color: white;
+    text-align: end;
+    margin-right: 50px;
+}
