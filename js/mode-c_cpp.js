@@ -6,7 +6,7 @@ ace.define("ace/mode/doc_comment_highlight_rules",["require","exports","module",
     
     var DocCommentHighlightRules = function() {
         this.$rules = {
-            "start" : [ {
+            "start" : [ {   
                 token : "comment.doc.tag",
                 regex : "@[\\w\\d_]+" // TODO: fix email addresses
             }, 

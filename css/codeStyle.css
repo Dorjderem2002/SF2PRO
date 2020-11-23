@@ -1,8 +1,6 @@
-
-
 .mainSection {
+    height: 100%;
     display: grid;
-    grid-template-columns: 1fr 4fr;
 }
 
 .codingSection {
@@ -12,5 +10,26 @@
 }
 
 .editor {
+    height: 100%;
     z-index: 10;
+}
+
+#runButton {
+	color: white;
+	background-color: #303030;
+	margin-top: 10px;
+	margin-left: 40px;
+	width: 40px;
+	height: 40px;
+	border-radius: 50%;
+}
+
+#stopButton {
+	color: white;
+	background-color: #303030;
+	margin-top: 10px;
+	margin-left: 20px;
+	width: 40px;
+	height: 40px;
+	border-radius: 50%;
 }
